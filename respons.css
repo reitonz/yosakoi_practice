@@ -1,0 +1,167 @@
+@media screen and (max-width: 414px) {
+    .header-left {
+        width: 100%;
+    }
+
+
+    .header-left h3 , .header-left p {
+        margin-top: 10px;
+    }
+    
+    .header-right {
+        display: none;
+    }
+
+    .header-right2 {
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top: -25px;
+        left: 100%;
+    }
+
+    #rei {
+        display: block;
+    }
+
+    .cre {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .get {
+        margin-left: 0;
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .cre dl dt {
+        width: 35%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .access-top {
+        width: 95%;
+    }
+
+    .access-text {
+        width: 100%;
+    }
+
+    .ddd dd {
+        padding-left: 0;
+    }
+
+    .ddd img {
+        margin-left: 6%;
+    }
+
+    .galley-top {
+        width: 90%; 
+    }
+
+    .galley-text {
+        display: block;
+    }
+
+    .galleys {
+        width: 100%;
+    }
+
+    .galley img {
+        max-width: 100%;
+    }
+
+    .galley p {
+        top: 86%;
+        padding-left: 37%;
+        padding-right: 36.4%;
+    }
+
+    .galley-moves {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .tyu {
+        text-align: center;
+    }
+
+    .move img {
+        max-width: 100%;
+    }
+
+    .help-top {
+        width: 90%;
+        margin-top: 20%;
+    }
+
+    .book textarea {
+        margin-left: 36%;
+    }
+
+    /* 作品紹介 */
+
+    .good {
+        display: block;
+    }
+
+    .vos {
+        width: 100%;
+    }
+
+    .vos2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .kura .kina{
+        margin-top: 20%;
+    }
+
+    /* メンバー */
+
+    .mao {
+        width: 90%;
+    }
+
+    .parson {
+        width: 47%;
+    }
+
+    /* 仏喜踊とは */
+
+    .why {
+        width: 90%;
+        display: block;
+    }
+
+    .what {
+        width: 95%;
+    }
+
+    .get2 {
+        width: 100%;
+    }
+
+    .why2 {
+        width: 75%;
+    }
+
+    .vbn {
+        width: 90%;
+    }
+
+    /* スケジュール */
+
+    .schedule-top {
+        width: 90%;
+    }
+
+    .schedule dl dt {
+        width: 35%;
+    }
+} 

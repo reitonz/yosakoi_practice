@@ -1,0 +1,626 @@
+body {
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+
+nav ul a li {
+    padding: 10px;
+    font-size: 17px;
+   
+}
+
+.min-text {
+    font-size: 15px;
+}
+
+
+
+
+/* ホーム************************************** */
+    /* Header**************** */
+
+header {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header-top {
+    display: flex;
+    width: 100%;
+}
+
+.header-left {
+    display: flex;
+    width: 29%;
+}
+
+.header-icon {
+    width: 20%;
+}
+
+.header-icon img{
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.header-right {
+    width: 70%;
+    line-height: 94px;
+}
+
+.header-right ul {
+    display: flex;
+}
+
+.header-right a {
+    border-left: 1px solid rgba(128, 128, 128, 0.698);
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.header-right a:hover {
+    border-bottom: 3px solid rgba(150, 174, 226, 0.644);
+}
+
+    /* main*************** */
+
+.images {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(238, 162, 200, 0.664);
+    
+}
+
+.slide {
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.btn-wrapper {
+    width: 10%;
+    float: right;
+}
+
+.btn {
+    display: inline;
+    background-color: rgb(126, 252, 0);
+    padding: 0 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgba(126, 252, 0, 0.514);
+   
+}
+
+
+    /* Main-Text********************** */
+
+
+.main-text {
+    width: 90%;
+    margin: 100px auto 0 auto;
+}
+
+    /* 目次************** */
+
+#rei {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.cre strong , .get strong , .get2 strong , .vbn strong{
+    border-left: 6px solid lawngreen;
+    border-bottom: 1px outset lawngreen;
+    padding-left: 5px;
+    display: block;
+}
+
+.cre{
+    width: 35%;
+}
+
+.cre dl dt , .get dl dt{
+    width: 24%;
+    border-bottom: 1px outset silver ;
+    float: left;
+    padding: 5px 0;
+}
+
+.cre dl dd , .get dl dd {
+    margin-bottom: 30px;
+    border-bottom: 1px outset silver ;
+    padding: 5px 0;
+    padding-left: 100px;
+}
+
+.get{
+    margin-left: 10%;
+    width: 37%;
+}
+
+    /* Footer************** */
+
+footer {
+    width: 90%;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+/* 仏喜踊とは*********** */
+    /* ProfileHtml********** */
+
+.clear {
+    clear: right;
+}
+
+.why {
+    width: 80%;
+    margin: 100px auto;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.what {
+    width: 60%;
+    margin: 0 auto;
+  
+} 
+
+.what strong {
+    border-left: 6px solid lawngreen;
+    border-bottom: 1px outset lawngreen;
+    display: block;
+}
+
+.what-img {
+    max-width: 60%;
+    float: right;
+    border-radius: 5px;
+}
+
+.get2{
+    width: 33%;
+    margin-top: 1.8%;
+}
+
+.get2 dl dt{
+    width: 24%;
+    border-bottom: 1px outset silver ;
+    float: left;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.get2 dl dd {
+    margin-bottom: 30px;
+    border-bottom: 1px outset silver ;
+    padding: 5px 0;
+    padding-left: 100px;
+    font-size: 15px;
+}
+
+
+.vbn {
+    width: 33%;
+    float: right;
+}
+
+.vbn dl dd {
+    border-bottom: 1px outset silver ;
+    padding: 5px 0;
+}
+
+.why2 {
+    width: 98%;
+    margin-bottom: 5%;
+}
+
+.lip {
+    width: 98%;
+    margin: 0 auto;
+}
+
+/* メンバー**************************** */
+
+.mao {
+width: 80%;
+margin: 0 auto;
+padding: 100px 0;
+}
+
+.mao h3 {
+border-left: 6px solid lawngreen;
+border-bottom: 1px outset lawngreen;
+display: block;
+} 
+
+.parsons {
+width: 100%;
+height: 50%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.parson {
+text-align: center;
+width: 9%;
+padding: 3%;
+margin: 5px ;
+font-size: 20px;
+background-image: url(img/IMG_2220.jpg);
+background-size: cover;
+
+}
+
+.parson a {
+color: white;
+
+}
+
+.parson a:hover{
+text-decoration:underline;
+}
+
+
+
+/* スケジュール************* */
+
+.schedule-top {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.schedule strong {
+    border-left: 6px solid lawngreen;
+    border-bottom: 1px outset lawngreen;
+    display: block;
+}
+
+.schedule dl {
+    margin-top: 0;
+}
+
+.schedule dl dt {
+    width: 24%;
+    border-bottom: 1px  solid silver ;
+    float: left;
+    padding: 3%;
+    background-color: rgba(238, 162, 200, 0.842);
+}
+
+.schedule dl dd{
+    margin-bottom: 30px;
+    border-bottom: 1px outset silver ;
+    padding: 3%;
+    padding-left: 40%;
+    margin: 0 ;
+    background-color: rgba(125, 221, 211, 0.198);
+}
+
+.schedule a:hover {
+    text-decoration: underline;
+}
+
+.tyu{
+    text-align: right;
+}
+
+
+/* 作品紹介***************** */
+
+.kura {
+width: 80%;
+margin: 0 auto;
+padding: 100px 0;
+}
+
+.good {
+display: flex;
+}
+
+.good strong , .kina strong{
+border-left: 6px solid lawngreen;
+border-bottom: 1px outset lawngreen;
+display: block;
+}
+
+.vos {
+width: 60%;
+}
+
+.vos2 {
+width: 30%;
+margin-left: 5%;
+}
+
+/* アクセス****************************** */
+
+.access-top {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.access-text {
+    width: 40%;
+}
+
+.access-text strong {
+    border-left: 6px solid lawngreen;
+    border-bottom: 1px outset lawngreen;
+    display: block;
+}
+
+.access-text dl dt {
+    float: left;
+    border-bottom: 1px solid silver;
+}
+
+.ddd {
+    float: right;
+}
+
+.ddd  dd {
+    
+    border-bottom: 1px solid silver;
+    /* padding-left: 10%; */
+}
+
+.ddd img {
+    margin-left: 20%;
+    max-width: 80%;
+    height: auto;
+}
+
+/* ギャラリー******************* */
+
+.galley-top {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+   
+}
+
+.galley-text {
+    display: flex;
+    width: 100%;
+}
+
+.galleys{
+    width: 30%;
+}
+
+
+
+.galley h3 {
+    border-left: 6px solid lawngreen;
+    border-bottom: 1px outset lawngreen;
+    display: block;
+}
+
+.galley img {
+    max-width: 70%;
+}
+
+.galley-icon {
+    position: relative;
+    
+}
+
+.galley p {
+    position: absolute;
+    top: 69%;
+    padding-left: 5%;
+    padding-right: 34.4%;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+
+.galley-moves {
+    margin-left: 10%;
+    width: 30%;
+}
+
+.move h3 {
+
+    border-left: 6px solid lawngreen;
+    border-bottom: 1px outset lawngreen;
+    display: block;
+}
+
+.move img {
+    max-width: 150%;
+}
+
+/* お問い合わせ************** */
+
+#back {
+    background-color: rgba(166, 190, 235, 0.671);
+}
+
+.focus{
+    background-color: rgba(251, 251, 122, 0.431);
+}
+
+.help-top {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sei {
+    display: flex;
+}
+
+.sei small {
+    line-height: 56px;
+}
+
+.one  {
+    margin-left: 18%;
+}
+
+.two {
+    margin-left: 2%;
+}
+
+.sei input{
+    margin-left: 5px;
+    margin-bottom: 15%;
+}
+
+.sei small::before , .mail small::before{
+    content: '*';
+    color: rgba(255, 0, 0, 0.692);
+}
+
+.team input {
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+
+.mail input {
+    width: 50%;
+    margin-left: 8.8%;
+    margin-bottom: 7%;
+}
+
+.book {
+    position: relative;
+}
+
+.book small {
+   position: absolute;
+   top: 5%;
+}
+
+.book textarea {
+    margin-left: 25%;
+    margin-bottom: 7%;
+}
+
+.help-btn {
+    text-align: center;
+}
+
+
+
+.header-right2 {
+    display: none;
+}
+
+*, *:before, *:after {
+	/* padding: 0; */
+	margin: 0;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.cp_cont {
+	height: 65vh;
+}
+.cp_offcm01 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: inline-block;
+}
+/* menu */
+.cp_offcm01 .cp_menu {
+	position: fixed;
+	top: 0;
+	right: -100vw;
+	width: 250px;
+	height: 100%;
+	cursor: pointer;
+	-webkit-transition: 0.53s transform;
+	        transition: 0.53s transform;
+	-webkit-transition-timing-function: cubic-bezier(.38,.52,.23,.99);
+	        transition-timing-function: cubic-bezier(.38,.52,.23,.99);
+	background-color: #607D8B;
+	opacity: 0.8;
+}
+.cp_offcm01 .cp_menu ul {
+	margin: 0;
+	padding: 0;
+}
+.cp_offcm01 .cp_menu li {
+    list-style: none;
+    padding: 5% 0;
+}
+.cp_offcm01 .cp_menu li a {
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+.cp_offcm01 #cp_toggle01 {
+	position: absolute;
+	display: none;
+	opacity: 0;
+}
+.cp_offcm01 #cp_toggle01:checked ~ .cp_menu {
+	-webkit-transform: translateX(-100vw);
+	        transform: translateX(-100vw);
+}
+/* menu toggle */
+.cp_offcm01 #cp_toggle01 ~ label {
+	display: block;
+	padding: 0.5em;
+	cursor: pointer;
+	-webkit-transition: 0.5s transform;
+	        transition: 0.5s transform;
+	-webkit-transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
+	        transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
+	text-align: center;
+	color: #333333;
+}
+.cp_offcm01 #cp_toggle01:checked ~ label {
+	-webkit-transform: translateX(-250px);
+	        transform: translateX(-250px);
+}
+.cp_offcm01 #cp_toggle01 ~ label::before {
+	font-family: 'FontAwesome';
+	content: '\f0c9';
+	font-size: 2em
+}
+.cp_offcm01 #cp_toggle01:checked ~ label::before {
+	content: '\f00d';
+}
+
